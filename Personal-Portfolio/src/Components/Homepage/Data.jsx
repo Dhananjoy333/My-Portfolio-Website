@@ -1,9 +1,10 @@
 import React from 'react'
+import MySkills from './TypedSkills'
 
 const Data = () => {
   return (
     <div className="home__data">
-        <h1 className="home__title">John Smith
+        <h1 className="home__title">Dhananjoy Brahma
         <svg
                   width="36"
                   height="36"
@@ -54,9 +55,10 @@ const Data = () => {
                   ></path>
         </svg>
         </h1>
-        <h3 className="home__subtitle">Visual Designer</h3>
-        <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ipsam soluta. Quisquam quasi iure consectetur exercitationem eius maxime mollitia a.</p>
-        <a href="#contact" className="button button--flex">
+        <h3 className="home__subtitle"><MySkills/></h3>
+        <p className="home__description">Hi, I'm a Full Stack Web Developer passionate about building dynamic, user-friendly, and scalable web applications. From responsive interfaces to robust back-end solutions, I turn ideas into seamless digital experiences. Let’s create something amazing!</p>
+        <a href="#contact" className="button button--flex say__hello-button">
+        <span className="btn-text">
             Say Hello
             <svg
                   class="button__icon"
@@ -75,7 +77,9 @@ const Data = () => {
                     fill="var(--container-color)"
                   ></path>
             </svg>
+            </span>
         </a>
+        
     </div>
   )
 }

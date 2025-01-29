@@ -71,6 +71,25 @@
 
 /*=============== BREAKPOINTS ===============*/
 
+@media screen and (min-width:992px){
+   .work{
+    height: 100vh;
+   }
+   .work__card{
+    height: 380px;
+    width: 340px;
+   }
+   .work__filters{
+    column-gap: 3rem;
+    margin-bottom: 50px;
+   }
+   .work__container{
+    grid-template-columns: repeat(3,max-content);
+    column-gap: 6rem;
+    justify-content: center;
+   }
+}
+
 /* For large devices */
 @media screen and (max-width: 992px) {
     .work__container{

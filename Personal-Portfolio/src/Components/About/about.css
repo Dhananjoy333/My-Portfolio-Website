@@ -45,23 +45,22 @@
 }
 
   /*=============== BREAKPOINTS ===============*/
- /* @media screen and (min-width:992px){
-  .container{
-    max-width: 100vw;
+ @media screen and (min-width:992px){
+  .about{
     height: 100vh;
-    margin-left: 300px;
-    margin-right: 300px;
   }
-  :root {
-    --big-font-size: 3rem;
-    --h1-font-size: 2rem;
-    --h2-font-size: 2rem;
-    --h3-font-size: 2rem;
-    --normal-font-size: 1.5rem;
-    --small-font-size: 1.2rem;
-    --smaller-font-size: 1rem;
+  .about__info{
+    gap: 10rem;
   }
- } */
+  .about__box{
+    width: 180px;
+    height: 230px;
+  }
+  .about__img{
+    width: 500px;
+  }
+  
+ }
   /* For large devices */
   @media screen and (max-width: 992px) {
     .about__container{

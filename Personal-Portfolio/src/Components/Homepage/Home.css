@@ -18,8 +18,17 @@
     font-size: 1.25rem;
     color: var(--title-color);
 }
-.home__social-icon:hover{
-    color: var(--title-color-dark);
+.social__instagram:hover{
+    color:rgb(244, 50, 141) ;
+    transition: 0.7s ease;
+}
+.social__linkedIn:hover{
+    color:rgb(39, 152, 250) ;
+    transition: 0.7s ease;
+}
+.social__gitHub:hover{
+    color:rgb(15, 139, 247) ;
+    transition: 0.7s ease;
 }
 
 .home__title{
@@ -56,8 +65,27 @@
     top: 1rem;
 }
 
+/* pullting color on img when hover */
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 400px;
+    height: auto;
+    display: block;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out;
+}
+
+.image-container:hover img {
+    filter: grayscale(0%);
+}
+
+
 .home__img{
-    background: url(../../../public/img/profile.jpg);
+    background: url(../../img/profile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -112,20 +140,31 @@
     font-size: 1.25rem;
     color: var(--title-color);
 }
+
+
  /*=============== BREAKPOINTS ===============*/
-/* @media screen and (min-width:992px){
+
+ @media screen and (min-width : 992px){
+    .home__container{
+        height: 100vh;
+    }
+    .home__title{
+        margin-bottom: 2rem;
+    }
     .home__social-icon{
         font-size: 3rem;
     }
-    .home__data{
-        margin-left: 80px;
-        height: 500px;
+    .home__description{
+        max-width: 700px;
     }
     .home__img{
-        height: 500px;
         width: 500px;
+        height: 500px;
     }
-} */
+    .say__hello-button{
+        margin-top: 50px;
+    }
+}
 @media screen and (max-width: 992px) {
     .home__content{
         grid-template-columns: 100px repeat(2,1fr);

@@ -1,5 +1,4 @@
 .footer{
-    background-color: var(--container-color);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -43,10 +42,6 @@
     display: inline-flex;
 }
 
-.footer__social-link:hover{
-    background-color: var(--title-color-dark);
-}
-
 .footer__copy{
     display: flex;
     margin-top: 4.5rem;
@@ -55,29 +50,59 @@
     font-size: var(--smaller-font-size);   
 }
 
+.footer__logo{
+    height: 250px;
+    width: 270px;
+}
+
+.footer__facebook:hover{
+    background-color: rgb(54, 54, 237);
+    transition: 0.7s ease;
+}
+.footer__instagram:hover{
+    background: linear-gradient(rgb(113, 113, 252),rgb(255, 118, 26),rgb(255, 181, 54));
+    transition: 0.7s ease;
+}
+.footer__twitter:hover{
+    background-color: rgb(85, 85, 238);
+    transition: 0.7s ease;
+}
+
+.footer__link{
+    display: inline-block;
+    background: linear-gradient(to right, rgb(154, 235, 241) 0%, rgb(253, 122, 122) 50%, rgb(17, 17, 17) 50%, rgb(17, 17, 17) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.9s ease-in-out;
+}
+.footer__link:hover{
+    background-position: 0% 0;
+}
+
+
 /*=============== BREAKPOINTS ===============*/
- /* @media screen and (min-width:992px){
-  .container{
-    max-width: 100vw;
-    height: 100vh;
-    margin-left: 300px;
-    margin-right: 300px;
+ @media screen and (min-width:992px){
+    .footer__container{
+        height: 400px;
+    }
+    .footer__social{
+        column-gap: 2rem;
+    }
+    .footer__social-link{
+    font-size: 3rem;
   }
-  :root {
-    --big-font-size: 3rem;
-    --h1-font-size: 2rem;
-    --h2-font-size: 2rem;
-    --h3-font-size: 2rem;
-    --normal-font-size: 1.5rem;
-    --small-font-size: 1.2rem;
-    --smaller-font-size: 1rem;
-  }
- } */
+ }
   /* For large devices */
   @media screen and (max-width: 992px) {
     .footer__social-link{
         padding: 0.25rem;
         border-radius: 0.25rem;
         font-size: 1rem;
+    }
+    .footer__logo{
+        height: 150px;
+        width: 170px;
     }
   }

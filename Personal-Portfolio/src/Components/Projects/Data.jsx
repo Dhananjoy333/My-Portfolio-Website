@@ -1,8 +1,8 @@
-import Work1 from "../../../public/img/work1.jpg"
-import Work2 from "../../../public/img/work2.jpg"
-import Work3 from "../../../public/img/work3.jpg"
-import Work4 from "../../../public/img/work4.jpg"
-import Work5 from "../../../public/img/work5.jpg"
+import Work1 from "../../img/work1.jpg"
+import Work2 from "../../img/work2.jpg"
+import Work3 from "../../img/work3.jpg"
+import Work4 from "../../img/work4.jpg"
+import Work5 from "../../img/work5.jpg"
 
 export const projectsData = [
     {
