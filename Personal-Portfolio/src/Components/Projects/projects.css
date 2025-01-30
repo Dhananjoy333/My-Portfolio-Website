@@ -92,6 +92,9 @@
 
 /* For large devices */
 @media screen and (max-width: 1600px) {
+    .work__container{
+        grid-template-columns: repeat(3,max-content);
+    }
     .work{
         height: 100vh;
     }
