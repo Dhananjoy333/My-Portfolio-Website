@@ -113,6 +113,12 @@ textarea,input::placeholder{
 
 /*=============== BREAKPOINTS ===============*/
  @media screen and (min-width:1600px){
+    .talk__to-me{
+        padding-left: 150px;
+    }
+    .contact__container{
+        column-gap: 20rem;
+    }
     .contact__form-div{
         height: 6rem;
     }
@@ -122,6 +128,9 @@ textarea,input::placeholder{
     .contact{
         height: 1100px;
     }
+    .contact__card{
+        width: 500px;
+    }
  }
 
 
@@ -130,6 +139,7 @@ textarea,input::placeholder{
     .contact{
         margin-top: 200px;
     }
+    
     .contact__container{
         column-gap: 3rem;
     }
