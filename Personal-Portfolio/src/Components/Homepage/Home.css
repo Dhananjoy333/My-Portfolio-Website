@@ -144,7 +144,7 @@
 
  /*=============== BREAKPOINTS ===============*/
 
- @media screen and (min-width : 992px){
+ @media screen and (min-width : 1600px){
     .home__container{
         height: 100vh;
     }
@@ -165,7 +165,7 @@
         margin-top: 50px;
     }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1600px) {
     .home__content{
         grid-template-columns: 100px repeat(2,1fr);
         column-gap: 1.25rem;

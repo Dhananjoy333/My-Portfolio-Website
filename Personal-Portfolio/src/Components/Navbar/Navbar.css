@@ -69,7 +69,7 @@
 }
 
                 /*Breakpoint*/
-@media screen and (min-width : 992px){
+@media screen and (min-width : 1600px){
     .nav{
         height: 100px;
     }
@@ -78,7 +78,7 @@
     }
 }
 
-@media screen and (max-width : 1110px){
+@media screen and (max-width : 1600px){
     .nav__logo{
         width: 140px;
         height: 110px;

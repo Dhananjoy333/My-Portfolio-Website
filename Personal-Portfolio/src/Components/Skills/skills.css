@@ -51,7 +51,7 @@
 }
 
 /*=============== BREAKPOINTS ===============*/
- @media screen and (min-width:992px){
+ @media screen and (min-width:1600px){
   .skills{
     height: 100vh;
   }
@@ -68,7 +68,7 @@
   }
  }
   /* For large devices */
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1600px) {
     .skills__container{
         grid-template-columns: max-content;
         row-gap: 2rem;

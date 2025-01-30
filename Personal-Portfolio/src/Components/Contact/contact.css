@@ -112,7 +112,7 @@ textarea,input::placeholder{
 }
 
 /*=============== BREAKPOINTS ===============*/
- @media screen and (min-width:992px){
+ @media screen and (min-width:1600px){
     .contact__form-div{
         height: 6rem;
     }
@@ -126,7 +126,7 @@ textarea,input::placeholder{
 
 
   /* For large devices */
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1600px) {
     .contact__container{
         column-gap: 3rem;
     }

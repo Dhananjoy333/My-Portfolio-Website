@@ -107,7 +107,7 @@
 }
 
 /*=============== BREAKPOINTS ===============*/
- @media screen and (min-width:992px){
+ @media screen and (min-width:1600px){
   .qualification__container{
     max-width: 1500px;
   }
@@ -119,7 +119,7 @@
   }
  }
   /* For large devices */
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1600px) {
     .qualification__container{
         margin-left: auto;
         margin-right: auto;

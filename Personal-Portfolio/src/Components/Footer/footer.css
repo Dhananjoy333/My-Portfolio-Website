@@ -83,7 +83,7 @@
 
 
 /*=============== BREAKPOINTS ===============*/
- @media screen and (min-width:992px){
+ @media screen and (min-width:1600px){
     .footer__container{
         height: 400px;
     }
@@ -95,7 +95,7 @@
   }
  }
   /* For large devices */
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1600px) {
     .footer__social-link{
         padding: 0.25rem;
         border-radius: 0.25rem;

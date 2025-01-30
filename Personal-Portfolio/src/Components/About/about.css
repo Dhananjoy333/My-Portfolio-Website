@@ -45,7 +45,7 @@
 }
 
   /*=============== BREAKPOINTS ===============*/
- @media screen and (min-width:992px){
+ @media screen and (min-width:1600px){
   .about{
     height: 100vh;
   }
@@ -62,7 +62,7 @@
   
  }
   /* For large devices */
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1600px) {
     .about__container{
         grid-template-columns: 1fr;
         row-gap: 2.5rem;
