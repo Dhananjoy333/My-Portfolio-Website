@@ -92,6 +92,9 @@
 
 /* For large devices */
 @media screen and (max-width: 1600px) {
+    .work{
+        height: 100vh;
+    }
     .work__container{
         gap: 1.25rem;
     }

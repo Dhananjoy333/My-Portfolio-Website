@@ -69,9 +69,19 @@
  }
   /* For large devices */
   @media screen and (max-width: 1600px) {
+    .skills{
+      height: 100vh;
+    }
     .skills__container{
-        grid-template-columns: max-content;
+      margin-top: 150px;
         row-gap: 2rem;
+    }
+    .skills__title{
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .skills__box{
+      height: 200px;
     }
   }
   
